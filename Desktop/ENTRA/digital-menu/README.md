@@ -1,16 +1,24 @@
-<h1> digital-menu </h1>
+## Digital Menu 📜🍔
 
-<h2> PROJETO FINAL </h2>
+**Descrição do Projeto:**
 
-<h3> PRINCIPAL (1000XP) </h3>
+Este projeto é um cardápio digital interativo que oferece uma experiência de usuário otimizada para visualização e navegação. Desenvolvido como um projeto final, ele inclui:
 
-<ul>
-  <li> Fazer um cardápio/catálogo digital; </li>
-  <li> Todo produto deste cardápio/catálogo deve possuir uma imagem, um nome e um preço (200XP); </li>
-  <li> É necessário ter um header com navegação para outras páginas HTML (Sobre e Cadastro), que deverá colapsar a partir de uma certa largura (200XP); </li>
-  <li> A página de sobre deve ter uma imagem grande e uma descrição (100XP); </li>
-  <li> A página de cadastro deve ter um formulário para cadastrar um item no catálogo (100XP); </li>
-  <li> A página deve ser otimizada para SEO e acessibilidade (200XP); </li>
-  <li> A página deve ser feita usando Bootstrap ou qualquer outro framework frontend (o objetivo é deixá-la responsiva) (200XP). </li>
-  <li> A ideia é mais usar o bootstrap e deixar a página responsiva </li>
-</ul>
+### Funcionalidades Principais:
+- **Cardápio Digital:** Exibe um catálogo de produtos, com cada item apresentando uma imagem, um nome e um preço. 🖼️📝💲
+- **Navegação Responsiva:** O cabeçalho inclui links para as páginas "Sobre" e "Cadastro", com um menu de navegação que se adapta a diferentes tamanhos de tela usando Bootstrap. 🌐📱
+- **Página "Sobre":** Contém uma imagem grande e uma descrição detalhada do projeto ou da empresa. 📸📝
+- **Página de "Cadastro":** Inclui um formulário funcional para adicionar novos itens ao cardápio. 📝➕
+- **Otimização:** A página é otimizada para SEO e acessibilidade, garantindo que seja facilmente encontrada e acessível a todos os usuários. 🚀🔍
+- **Framework Frontend:** Utiliza o Bootstrap para garantir uma experiência responsiva e visualmente atraente. 💻📐
+
+### Tecnologias Utilizadas:
+- HTML
+- CSS
+- JavaScript
+- Bootstrap (ou outro framework frontend) 🚀
+
+O objetivo principal deste projeto é criar uma interface de usuário responsiva e amigável, utilizando Bootstrap para adaptar a visualização do cardápio em diferentes dispositivos. 📲✨
+
+---
+
