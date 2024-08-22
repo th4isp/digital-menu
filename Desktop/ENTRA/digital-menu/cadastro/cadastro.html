@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Menu</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <header>
+            <!-- Logo e nome -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand mb-5" href="#"><img src="../assets/logo.svg" alt="Logo da página"></a>
+                <div class="tittle mb-5">
+                    BURGUER LAND
+                </div>
+                <!-- Botão de colapso do menu hamburguer -->
+                <button class="navbar-toggler bg-light btn-light mb-5" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-pills px-5">
+                        <li class="nav-item active px-4 mb-3">
+                            <a href="../index.html" type="button" class="btn btn-outline-light ml-4">Início</a>
+                        </li>
+                        <li class="nav-item active px-4 mb-3">
+                            <a href="../sobre/sobre.html" type="button" class="btn btn-outline-light ml-4">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../cadastro/cadastro.html" type="button" class="btn btn-outline-light ml-5 mb-5">Cadastrar itens</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <form class="form container-fluid mt-5" style="--bs-columns: 3">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Digite seu nome de usuário</span>
+                <input type="text" class="form-control" placeholder="Nome de usuário" aria-label="Nome de usuário" aria-describedby="basic-addon1" required>
+            </div>
+              
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Digite seu e-mail</span>
+                <input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1" required>
+            </div>
+              
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Digite o nome do produto</span>
+                <input type="text" class="form-control" id="basic-url" required>
+                <div class="form-text text-light" id="basic-addon4">Exemplo: X-TUDO</div>
+            </div>
+              
+            <div class="input-group mb-3">
+                <span class="input-group-text">Valor sugerido: R$</span>
+                <input type="number" class="form-control" aria-label="Valor (em reais)" required>
+                <span class="input-group-text">.00</span>
+            </div>             
+            <div class="input-group">
+                <span class="input-group-text">Informe os ingredientes</span>
+                <textarea class="form-control" aria-label="Com textarea" required></textarea>
+            </div>
+
+            <div class="input-group mt-3 mb-2">
+                <input type="file" class="form-control p-1" id="inputGroupFile02" required>
+            </div>
+            <button type="submit" class="btn btn-outline-light mt-2">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">                   
+        <div>
+            Copyright © Thaís Dev. 2024
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif; /* Incluído 'sans-serif' como fallback */
+}
+
+:root {
+    --back: #20170E;
+    --text-primary: #F3DFA0;
+    --hover-option: #D77F33;
+    --name-paragraphy: #EAEAEA;
+}
+
+body {
+    background-color: var(--back) !important;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.title { /* Corrigido de 'tittle' para 'title' */
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--back);
+    color: var(--text-primary);
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center; /* Adiciona centralização do texto */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte em telas menores */
+}
+
+.btn-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    background-color: var(--back);
+    color: var(--text-primary);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center; /* Adiciona centralização do texto */
+}
+
+.btn-price {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border: 1px solid transparent;
+    color: var(--text-primary);
+    background-color: var(--back);
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave */
+}
+
+.btn-price:hover {
+    background-color: var(--hover-option);
+    color: var(--back);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+    padding-left: 300px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 19rem;
+}
+
+.footer {
+    color: var(--name-paragraphy);
+    font-size: 20px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .about {
+        margin-left: 19rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .navigation {
+        padding: 10px;
+        align-items: flex-end;
+    }
+
+    .disposition {
+        margin: 20px;
+    }
+
+    .about {
+        margin-left: 12.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .about {
+        margin-left: 2.5rem;
+    }
+}
